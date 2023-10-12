@@ -1,3 +1,4 @@
+import { LayoutModule } from './layout/layout.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -20,6 +21,7 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    LayoutModule,
     
   ],
   providers: [],
