@@ -1,0 +1,48 @@
+.top-container{
+    background-color: #008a8f;
+    width: 100%;
+    height: 100px;
+}
+
+.top-container h3{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 50px;
+    transform: translate(0%, 130%);
+}
+
+.top-container span{
+    color: black;
+}
+
+.login_btn{
+    padding: 10px;
+    background: rgb(0, 109, 115);
+    text-decoration: none;
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+.login_btn:hover{
+    background: rgb(0, 133, 107);
+}
+label #sidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5;
+    transition-property: color;
+}

@@ -1,0 +1,39 @@
+.header {
+    background-color: #1f72a3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    transform: translate( 15%, -10%);
+}
+
+  .container .profile_image{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: -20px;
+    width: 200px;
+    transform: translate( 15%, -10%);
+  }
+
+  .card p{
+    transform: translate( 30%, -40%);
+  }
