@@ -37,3 +37,6 @@
   .card p{
     transform: translate( 30%, -40%);
   }
+  .card:hover{
+   box-shadow: 5px 15px 25px red;
+  }
