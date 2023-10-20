@@ -1,42 +1,146 @@
 .header {
-    background-color: #1f72a3;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  background-color: #1f72a3;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
+  display: flex;
+  padding: 20px;
+
 }
 
-.card {
-    background-color: #b4b4b4;
-    border-radius: 10px;
-    padding: 20px;
-    width: 30%;
-    height: 300px;
-    margin: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.four {
+  background-color: #F9EBDF;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 225px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card h2 {
-    margin-top: 0;
-    transform: translate( 15%, -10%);
+.four h2 {
+  margin-top: 0;
+  transform: translate( 15%, -60%);
 }
 
-  .container .profile_image{
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: -20px;
-    width: 200px;
-    transform: translate( 15%, -10%);
-  }
+.container .profile_image{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: -20px;
+  width: 150px;
+  height: 115px;
+  transform: translate( 35%, -40%);
+}
 
-  .card p{
-    transform: translate( 30%, -40%);
-  }
-  .card:hover{
-   box-shadow: 5px 15px 25px red;
-  }
+.four p{
+  transform: translate( 30%, -170%);
+}
+.four:hover{
+ box-shadow: 5px 15px 25px blue;
+}
+
+.four .profile_images{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: -20px;
+  width: 150px;
+  height: 115px;
+  transform: translate( 35%, -40%);
+}
+
+.cards {
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 225px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cards:hover{
+  box-shadow: 5px 15px 25px blue;
+}
+.cards p{
+  transform: translate( 30%, -170%);
+}
+
+.cards h2 {
+  margin-top: 0;
+  transform: translate( 15%, -60%);
+}
+
+.two{
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 225px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.two:hover{
+  box-shadow: 5px 15px 25px blue;
+}
+.two p{
+  transform: translate( 30%, -170%);
+}
+
+.two h2 {
+  margin-top: 0;
+  transform: translate( 15%, -60%);
+}
+
+.three{
+  background-color: #DFCCFB;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 225px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.three:hover{
+  box-shadow: 5px 15px 25px blue;
+}
+.three p{
+  transform: translate( 30%, -170%);
+}
+
+.three h2 {
+  margin-top: 0;
+  transform: translate( 15%, -60%);
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transform: translate(-75%, 105%);
+  border-radius: 8px;
+}
+
+.buttons {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transform: translate(-90%, 100%);
+  border-radius: 8px;
+  
+}

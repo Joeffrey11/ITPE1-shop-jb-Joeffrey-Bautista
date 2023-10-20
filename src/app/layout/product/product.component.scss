@@ -28,6 +28,11 @@ h2{
 	justify-content: center;
 	flex-wrap: wrap;
 }
+.product .profile{
+	width: 220px;
+	height: 200px;
+	border-radius: 8px;
+}
 
 .product{
 	overflow: hidden;
@@ -77,4 +82,17 @@ h2{
 
 .product a:hover{
 	transform: scale(1.1);
+}
+
+.product-btns{
+	transform: translate(0%, 35%);
+}
+.product .ipad{
+	width: 220px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+.product-btn2{
+	transform: translate(0%, 35%);
 }
